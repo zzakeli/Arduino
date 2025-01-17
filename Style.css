@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #9f9f9f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 97vh;
+}
+
+
+.main-flex-container{
+
+    background-color: #AF8260;
+    border-radius: 20px;
+    height: 97%;
+    width: 86%;
+    position: relative;
+}
+
+.side-flex-container{
+    background-color: #AF8260;
+    height: 97%;
+    width: 13%;
+    border-radius: 20px;
+    z-index: 1;
+}
