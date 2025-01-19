@@ -8,20 +8,44 @@ body{
     height: 97vh;
 }
 
-
 .main-flex-container{
-
     background-color: #AF8260;
     border-radius: 20px;
     height: 97%;
-    width: 86%;
+    width: 80%;
     position: relative;
 }
 
 .side-flex-container{
     background-color: #AF8260;
     height: 97%;
-    width: 13%;
+    width: 19%;
     border-radius: 20px;
     z-index: 1;
+}
+.side-buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat',Montserrat;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.side-buttons ul{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border: 2px solid #AF8260;
+}
+
+.side-buttons ul:hover{
+    background-color: #c89873;
+    transform: scale(1.06);
+    transform: translateX(0px);
+    border: 2px solid;
 }
